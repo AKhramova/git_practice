@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', 'Open Sans';
+    font-size: 24px;
+    color: black;
+    line-height: 1.6;
+}
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    max-width: 95%;
+    height: 90vh;
+    margin-top: 50px;  
+}
+h1{
+    font-family: 'Oswald';
+    color: #333333;
+}
+.aboutme-text, .text-contacts{
+    width: 50%;
+    font-size: 17px;
+    font-family: 'Open Sans';
+    color: #5B5858;
+}
+.header-bg{
+    width: auto;
+    height: 100%;
+    background: #DCDCDC;;
+   background: -moz-linear-gradient(top, rgba(15,15,15,0.91) 0%, rgba(13,13,13,0.91) 14%, rgba(0,0,0,0.68) 99%, rgba(0,0,0,0.68) 100%),  url("../images/home.png") no-repeat;;
+   background: -webkit-linear-gradient(top, rgba(15,15,15,0.91) 0%,rgba(13,13,13,0.91) 14%,rgba(0,0,0,0.68) 99%,rgba(0,0,0,0.68) 100%),  url("../images/home.png") no-repeat;;
+   background: linear-gradient(to bottom, rgba(15,15,15,0.91) 0%,rgba(13,13,13,0.91) 14%,rgba(0,0,0,0.68) 99%,rgba(0,0,0,0.68) 100%),  url("../images/home.png") no-repeat;;
+   
+}
+.headlines{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    margin: 0;
+}
+.logo{
+    width: auto;
+    margin: auto;
+    margin-left: 3%;
+    color: white;
+}
+.menu{
+    width: auto;
+    margin: auto;
+    margin-right: 3%;
+}
+.nav-menu-a{
+    color: white;
+    font-size: 14px;
+    font-family: 'Oswald';
+    text-decoration: none;
+    padding-left: 35px;
+}
+.nav-menu-a:hover{
+    color: gainsboro;
+}
+
+/* about me*/
+.container-part-aboutme{
+    display: flex;
+    width: 100%;
+    max-width: 95%;
+    height: 60vh;
+}
+.part-aboutme{
+    width: 62%;
+    height: auto;
+    margin: 87px auto;
+}
+.headline-aboutme{
+    display: flex;
+    width: 20%;
+    margin: 0;
+}
+.photo-aboutme{
+    display: flex;
+    width: 26%;
+    height: 240px;
+    background: gainsboro;
+}
+.part-aboutme-figure, .part-portfolio-figure{
+    margin: 0;
+    display: flex;
+}
+.aboutme-text{
+    margin: auto;
+}
+
+/* portfolio*/
+.container-part-portfolio{
+    display: flex;
+    width: 100%;
+    max-width: 95%;
+    height: 200vh;
+    background: #FBFBFB;
+}
+.part-portfolio{
+    width: 85%;
+    height: 20vh;
+}
+.headline-portfolio{
+    margin: 1%;
+}
+.porfolio-photo-1, .porfolio-photo-2, .porfolio-photo-3, 
+.porfolio-photo-4,.porfolio-photo-5, .porfolio-photo-6,
+.porfolio-photo-7, .porfolio-photo-8, .porfolio-photo-9,
+.porfolio-photo-10, .porfolio-photo-11{
+    float: left;
+    border: 0px;
+    background: #DCDCDC;
+    overflow: hidden;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.porfolio-photo-1,.porfolio-photo-4{
+    width: 24%;
+}
+.porfolio-photo-1{
+    height: 260px;
+}
+.porfolio-photo-4{
+    height: 405px;
+    margin-top: -105px;
+}
+.porfolio-photo-2, .porfolio-photo-3{
+    width: 38%;
+    height: 350px;
+}
+.porfolio-photo-5{
+    width: 50%;
+    height: 300px;
+}
+.porfolio-photo-6, .porfolio-photo-9{
+    width: 26%;
+}
+.porfolio-photo-6{
+    height: 190px;
+}
+.porfolio-photo-7, .porfolio-photo-8{
+    height: 250px;
+}
+.porfolio-photo-7{
+    width: 40%;
+}
+.porfolio-photo-8{
+    width: 34%;
+}
+.porfolio-photo-9{
+    margin-top: -110px;
+    height: 360px;
+}
+.porfolio-photo-10, .porfolio-photo-11{
+    width: 50%;
+    height: 300px;
+}
+
+/* contacts */
+.container-part-contacts{
+    width: 100%;
+    max-width: 95%;
+    margin: 5% auto;
+    height: auto;
+}
+.part-contacts{
+    width: 62%;
+    height: auto;
+}
+.text-contacts{
+    text-align: center;
+}
+.container-footer-main{
+    width: 100%;
+    max-width: 95%;
+    height: 35vh;
+}
+.container-footer{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    background: #2E2E2E;
+}
+.container-footer-block{
+    width: 15%;
+}
+.container-footer-add{
+    width: 100%;
+    height: 5vh;
+    background: #252525;
+}
+.container-footer-networks{
+    margin: 10% auto;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+}
+.text-footer, .text-footer-add{
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Oswald';
+    color: #5B5858;
+}
+.text-footer{
+    margin-top: 20%;
+}
+.link-facebook, .link-twitter, .link-pinterest{
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+.topNubex{
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    color: gainsboro;
+    text-decoration: none;
+}
