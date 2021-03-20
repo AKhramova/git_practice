@@ -1,0 +1,60 @@
+.part-portfolio{
+    width: 85%;
+    height: 20vh;
+}
+.headline-portfolio{
+    margin: 1%;
+}
+.porfolio-photo-1, .porfolio-photo-2, .porfolio-photo-3, 
+.porfolio-photo-4,.porfolio-photo-5, .porfolio-photo-6,
+.porfolio-photo-7, .porfolio-photo-8, .porfolio-photo-9,
+.porfolio-photo-10, .porfolio-photo-11{
+    float: left;
+    border: 0px;
+    background: #DCDCDC;
+    overflow: hidden;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.porfolio-photo-1,.porfolio-photo-4{
+    width: 24%;
+}
+.porfolio-photo-1{
+    height: 260px;
+}
+.porfolio-photo-4{
+    height: 405px;
+    margin-top: -105px;
+}
+.porfolio-photo-2, .porfolio-photo-3{
+    width: 38%;
+    height: 350px;
+}
+.porfolio-photo-5{
+    width: 50%;
+    height: 300px;
+}
+.porfolio-photo-6, .porfolio-photo-9{
+    width: 26%;
+}
+.porfolio-photo-6{
+    height: 190px;
+}
+.porfolio-photo-7, .porfolio-photo-8{
+    height: 250px;
+}
+.porfolio-photo-7{
+    width: 40%;
+}
+.porfolio-photo-8{
+    width: 34%;
+}
+.porfolio-photo-9{
+    margin-top: -110px;
+    height: 360px;
+}
+.porfolio-photo-10, .porfolio-photo-11{
+    width: 50%;
+    height: 300px;
+}

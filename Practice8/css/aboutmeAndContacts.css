@@ -1,0 +1,35 @@
+.aboutme-text, .text-contacts{
+    width: 50%;
+}
+.part-aboutme{
+    width: 62%;
+    height: auto;
+    margin: 87px auto;
+}
+.headline-aboutme{
+    display: flex;
+    width: 20%;
+    margin: 0;
+}
+.photo-aboutme{
+    display: flex;
+    width: 26%;
+    height: 240px;
+    background: gainsboro;
+}
+.part-aboutme-figure, .part-portfolio-figure{
+    margin: 0;
+    display: flex;
+}
+.aboutme-text{
+    margin: auto;
+}
+
+/* contacts */
+.part-contacts{
+    width: 62%;
+    height: auto;
+}
+.text-contacts{
+    text-align: center;
+}
