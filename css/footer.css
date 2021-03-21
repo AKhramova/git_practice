@@ -1,0 +1,82 @@
+.container-footer{
+    display: flex;
+    width: 100%;
+   height: auto;
+    background: #2E2E2E;
+}
+.container-footer-block{
+    width: 40%;
+}
+.container-footer-add{
+    width: 100%;
+    height: 5vh;
+    background: #252525;
+}
+.container-footer-networks{
+    width: 60%;
+    margin: 10% auto;
+    content: center;
+}
+.text-footer, .text-footer-add{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Oswald';
+    color: #5B5858;
+}
+.text-footer{
+    margin-top: 15%;
+}
+.link-facebook, .link-twitter, .link-pinterest{
+    margin: -5%;
+    width: 30px;
+    height: 30px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .text-footer, .text-footer-add{
+        font-size: 10px;
+        font-family: 'Oswald';
+    }
+    .link-facebook, .link-twitter, .link-pinterest{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width:959px){
+    .container-footer-networks {
+        padding-left: 50px;
+    }
+    .link-facebook, .link-twitter, .link-pinterest{
+    padding-left: 10px;
+    }
+}
+@media only screen and (min-device-width : 960px) and (max-device-width : 1024px){
+    .container-footer-block{
+        width: 75%;
+        content: center;
+    }
+    .text-footer{
+    margin-top: 7%;
+    }
+    .container-footer-networks {
+            width: 25%;
+            margin: 5% auto;
+    }
+}
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1279px){
+    .container-footer-networks {
+        width: 45%;
+    }
+    .link-facebook, .link-twitter, .link-pinterest{
+        margin: -1%;
+    }
+}
+
+@media only screen and (min-device-width : 1280px){
+    .container-footer-networks {
+        width: 50%;
+    }
+    .link-facebook, .link-twitter, .link-pinterest{
+        margin: 2%;
+    }
+}
