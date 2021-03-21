@@ -67,7 +67,7 @@ h1{
     display: flex;
     width: 100%;
     max-width: 95%;
-    height: 60vh;
+    height: auto;
 }
 .part-aboutme{
     width: 62%;
@@ -98,7 +98,7 @@ h1{
     display: flex;
     width: 100%;
     max-width: 95%;
-    height: 200vh;
+    height: auto;
     background: #FBFBFB;
 }
 .part-portfolio{
@@ -179,7 +179,7 @@ img:hover{
 .container-footer-main{
     width: 100%;
     max-width: 95%;
-    height: 35vh;
+    height: auto;
 }
 .container-footer{
     display: flex;
