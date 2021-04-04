@@ -35,6 +35,7 @@
     .text-footer, .text-footer-add{
         font-size: 10px;
         font-family: 'Oswald';
+        line-height: 2;
     }
     .link-facebook, .link-twitter, .link-pinterest{
         width: 15px;
