@@ -1,0 +1,105 @@
+.part-portfolio{
+    width: 85%;
+    height: 20vh;
+}
+.headline-portfolio{
+    margin: 1%;
+}
+.porfolio-photo-1, .porfolio-photo-2, .porfolio-photo-3, 
+.porfolio-photo-4,.porfolio-photo-5, .porfolio-photo-6,
+.porfolio-photo-7, .porfolio-photo-8, .porfolio-photo-9,
+.porfolio-photo-10, .porfolio-photo-11{
+    float: left;
+    border: 0px;
+    background: #DCDCDC;
+    overflow: hidden;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.porfolio-photo-1,.porfolio-photo-4{
+    width: 24%;
+}
+.porfolio-photo-1{
+    height: 182%;
+}
+.porfolio-photo-4{
+    height: 415px;
+    margin-top: -115px;
+}
+.porfolio-photo-2, .porfolio-photo-3{
+    width: 38%;
+    height: 350px;
+}
+.porfolio-photo-5{
+    width: 50%;
+    height: 300px;
+}
+.porfolio-photo-6, .porfolio-photo-9{
+    width: 26%;
+}
+.porfolio-photo-6{
+    height: 190px;
+}
+.porfolio-photo-7, .porfolio-photo-8{
+    height: 250px;
+}
+.porfolio-photo-7{
+    width: 40%;
+}
+.porfolio-photo-8{
+    width: 34%;
+}
+.porfolio-photo-9{
+    margin-top: -110px;
+    height: 360px;
+}
+.porfolio-photo-10, .porfolio-photo-11{
+    width: 50%;
+    height: 300px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+.porfolio-photo-1{
+    height: 100px;
+}
+.porfolio-photo-4{
+    height: 140px;
+    margin-top: -50px;
+}
+.porfolio-photo-2, .porfolio-photo-3{
+    height: 150px;
+}
+.porfolio-photo-5{
+    height: 90px;
+}
+.porfolio-photo-6{
+    height: 70px;
+}
+.porfolio-photo-7, .porfolio-photo-8{
+    height: 110px;
+}
+.porfolio-photo-9{
+    margin-top: -20px;
+    height: 130px;
+}
+.porfolio-photo-10, .porfolio-photo-11{
+    height: 150px;
+}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width:959px){
+    .porfolio-photo-4{
+        height: 405px;
+        margin-top: -130px;
+    }
+    .porfolio-photo-5{
+    height: 275px;
+    }
+}
+@media only screen and (min-device-width : 960px) and (max-device-width : 1024px){
+    .porfolio-photo-4{
+        height: 429.9px;
+        margin-top: -130px;
+    }
+}

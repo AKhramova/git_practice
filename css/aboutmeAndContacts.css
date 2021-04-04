@@ -1,0 +1,54 @@
+.aboutme-text, .text-contacts{
+    width: 50%; 
+}
+.part-aboutme{
+    width: 62%; 
+    height: auto;
+    margin: 87px auto;
+}
+.headline-aboutme, .headline-contacts{
+    display: flex;
+    width: 20%;
+    margin: 0;
+}
+.photo-aboutme{
+    display: flex;
+    width: 26%;
+    height: 240px;
+    background: gainsboro;
+}
+.part-aboutme-figure, .part-portfolio-figure{
+    margin: 0;
+    display: flex;
+}
+.aboutme-text{
+    margin: auto;
+}
+
+/* contacts */
+.part-contacts{
+    margin-top: 5%;
+    width: 62%;
+    height: auto;
+}
+.text-contacts{
+    text-align: center;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .aboutme-text, .text-contacts{
+        width: 75%; 
+    }
+    .part-aboutme{
+        width: 100%;
+        margin: 15px auto;
+    } 
+    .photo-aboutme{
+    height: 155px;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width:959px){
+    .photo-aboutme{
+        height: 200px;
+        }
+  
+}
